@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p style="font-size: 1.4rem">
+            The <span style="font-size: 2rem; font-style: bold">Facilita Cerqueira API</span> is a service of access MongoDB database and provide data for mobile app created as prototype of the Projeto TCC!
+        </p>
+        <ul style="font-size: 1.2rem">
+            <li>
+                <strong>/version</strong> => Recurso para exibir a versão desta API.
+            </li>
+            <li>
+                <div>
+                    <strong>/complaints</strong> => Recurso para manipular a tabela "complaints" do banco de dados, é possível cadastrar (POST), alterar (PUT) e listar (GET) denúncias.
+                    <ul>
+                        <li><strong>/complaints/type/:type</strong> => Lista todas as denúncias feitas deste tipo</li>
+                        <li><strong>/complaints/title/:title</strong> => Para pesquisar por titulo da denúncia</li>
+                    </ul>
+                </div>
+            </li>
+
+            <!-- <li>
+                <div>
+                    <strong>/indicators</strong> => Recurso para manipular a coleção "indicators" do banco de dados, é possível cadastrar (POST), alterar (PUT) e listar (GET) valores dos indicadores da evolução da pandemia.
+                    <ul>
+                        <li><strong>/indicators/date/:date</strong> => Para pesquisar por data.</li>
+                        <li><strong>/indicators/total</strong> => Para retornar os totais de casos, curados e óbitos.</li>
+                        <li><strong>/indicators/total/:date</strong> => Para retornar os totais de casos, curados e óbitos para a data especificada.</li>
+                    </ul>
+                </div>
+            </li> -->
+            <li>
+                <div>
+                    <strong>/informations</strong> => Recurso para manipular a coleção "informations" do banco de dados, é possível cadastrar (POST), alterar (PUT) e listar (GET) informações.
+                    <ul>
+                        <li><strong>/informations/:title</strong> => Lista as informações pesquisando por título</li>
+                        <li><strong>/informations/category/:category</strong> => Lista as informações de uma categoria</li>
+                    </ul>
+                </div>
+            </li>
+        <ul>
+
+        <br>
+        <h2>This project is developed by the team 006 of class 005 for the Projeto TCC</h2>
+        <div>
+            <p>Students: </p>
+            <ul>
+                <li>CLAUDIO MARCIO STOCCO</li>
+                <li>FABIO ROGERIO DE SOUZA</li>
+                <li>LUIZ FERNANDO MAZA ALVES</li>
+                <li>LUIZ FERNANDO PARREIRA DOS SANTOS</li>
+                <li>MATEUS LIMA BONFIM</li>
+                <li>RAFAEL APARECIDO DE ANDRADE</li>
+                <li>SÉRGIO DIAS ALVES</li>
+                <li>YARA GIOVANNA GUIMARÃES</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
