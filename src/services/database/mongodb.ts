@@ -7,10 +7,10 @@ type DatabaseConnect = {
 
 // let uri = process.env.MONGODB_URI || "";
 // let dbName = process.env.MONGODB_DB;
-// jn5eSfgW7q10dHwb
+// m4owLWUbFnLvHzUz
 // mongodb+srv://pi_user:<password>@cluster0.eyy6ldk.mongodb.net/?retryWrites=true&w=majority
 
-let uri = 'mongodb+srv://api_user:jn5eSfgW7q10dHwb@cluster0.zbzxnhl.mongodb.net/';
+let uri = 'mongodb+srv://api_user:m4owLWUbFnLvHzUz@cluster0.zbzxnhl.mongodb.net/';
 let dbName = 'facilitacerqueira';
 
 let cachedClient: any = null;
