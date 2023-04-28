@@ -11,7 +11,7 @@ type DatabaseConnect = {
 // mongodb+srv://pi_user:<password>@cluster0.eyy6ldk.mongodb.net/?retryWrites=true&w=majority
 
 let uri = 'mongodb+srv://api_user:jn5eSfgW7q10dHwb@cluster0.zbzxnhl.mongodb.net/';
-let dbName = 'pandemicmonitor';
+let dbName = 'facilitacerqueira';
 
 let cachedClient: any = null;
 let cachedDb: any = null;
