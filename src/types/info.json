@@ -7,7 +7,7 @@
     {
         "category": "Telefone uteis",
         "title": "Vigilância Sanitária",
-        "description": "(99) 1234-1234"
+        "description": "(14) 3714-2534"
     },
     {
         "category": "Telefone uteis",
@@ -17,7 +17,7 @@
     {
         "category": "Telefone uteis",
         "title": "Santa Casa",
-        "description": "(99) 1234-1234"
+        "description": "(14) 3714-1711"
     },
     {
         "category": "Telefone uteis",
@@ -27,6 +27,36 @@
     {
         "category": "Telefone uteis",
         "title": "Delegacia",
-        "description": "(99) 1234-1234"
+        "description": "(14) 3714 1167"
+    },
+    {
+        "category": "Endereços uteis",
+        "title": "Prefeitura",
+        "description": "Rua Profª Hilda Cunha, nº 58 - Centro"
+    },
+    {
+        "category": "Endereços uteis",
+        "title": "Vigilância Sanitária",
+        "description": "R. Cap. Moura Leite, n 350 - Vila Nova"
+    },
+    {
+        "category": "Endereços uteis",
+        "title": "Vigilância Epidemiológica",
+        "description": "Rua Professor Solano de Abreu nº 71 - Centro"
+    },
+    {
+        "category": "Endereços uteis",
+        "title": "Santa Casa",
+        "description": "R. Maj. Artur Esteves, 700 - Vila Angelica"
+    },
+    {
+        "category": "Endereços uteis",
+        "title": "Posto de Saude",
+        "description": "Rua Professor Solano de Abreu nº 71 - Centro"
+    },
+    {
+        "category": "Endereços uteis",
+        "title": "Delegacia",
+        "description": "R. Domingos Firaci, 2 - Centro"
     }
 ]

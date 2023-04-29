@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { ObjectId } from "bson";
 
-import { find } from '../../services/database/find';
+import { aggregate, distinct, find } from '../../services/database/find';
 import { insert } from '../../services/database/insert';
 import { update } from '../../services/database/update';
 import { remove } from '../../services/database/delete';
@@ -22,7 +22,25 @@ informationsRouter.get('/', async (req, res) => {
 });
 
 informationsRouter.get('/categories', async (req, res) => {
-    const searched = await find('informations', {});
+    const searched = await distinct('informations', 'category');
+    if (searched) {
+        return res.status(searched?.success ? 200 : 500).json(searched);
+    }
+    return res.status(200).json({
+        success: false,
+        searched: null,
+        error: 'Error',
+    });
+});
+
+informationsRouter.get('/groupby', async (req, res) => {
+    const group = {
+        _id: '$category'
+    }
+    const pipeline = [
+        {$group: group}
+    ];
+    const searched = await aggregate('informations', pipeline);
     if (searched) {
         return res.status(searched?.success ? 200 : 500).json(searched);
     }
